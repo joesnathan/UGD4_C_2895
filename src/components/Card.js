@@ -7,7 +7,7 @@ function Card({ card, isFlipped, isMatched, onFlip }) {
             onFlip(card.id);
         }
     };
-// Determine if the card should be shown as open (flipped or matched)
+
     const isOpen = isFlipped || isMatched;
     const IconComponent = card.icon;
 
