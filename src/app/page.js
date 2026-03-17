@@ -62,6 +62,7 @@ export default function Home() {
         setMatchedCards([]);
         setMoves(0);
         setTime(0);
+        setGameStarted(false);
     }, [difficulty]);
 
     useEffect(() => {
